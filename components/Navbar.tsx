@@ -25,7 +25,7 @@ const Navbar = () => {
         <SidebarTrigger/>
         {/* <Button variant="outline" onClick={toggleSidebar}>Custom Button</Button> */}
         {/* RIGHT */}
-        <div className="flex justify-content-between items-center">
+        <div className="flex justify-content-between items-center gap-4">
           <Link href="/">Dashboard</Link>
         {/* Theme Menu */}
          <DropdownMenu>
