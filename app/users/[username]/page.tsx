@@ -25,6 +25,7 @@ import {
 } from "@/components/ui/sheet"
 import { Button } from '@/components/ui/button'
 import EditUser from '@/components/EditUser'
+import { AppLineChart } from '@/components/AppLineChart'
 
 
 const SingleUserPage = () => {
@@ -136,7 +137,8 @@ const SingleUserPage = () => {
 
           {/* CHART CONTAINER */}
           <div className='bg-primary-foreground p-4 rounded-lg'>
-            Chart
+            <h1>User Activity</h1>
+            <AppLineChart />
           </div>
         </div>
       </div>

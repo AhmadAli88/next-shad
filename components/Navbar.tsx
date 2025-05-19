@@ -20,7 +20,7 @@ const Navbar = () => {
  const {toggleSidebar} = useSidebar()
   return (
     <div>
-      <nav className="flex justify-between items-center p-4">
+      <nav className="flex justify-between items-center p-4 sticky top-0 bg-background border-b border-border z-10">
         {/* LEFT */}
         <SidebarTrigger/>
         {/* <Button variant="outline" onClick={toggleSidebar}>Custom Button</Button> */}
